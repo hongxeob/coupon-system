@@ -1,4 +1,4 @@
-package com.example.api.domain.respoistory;
+package com.example.api.respoistory;
 
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;

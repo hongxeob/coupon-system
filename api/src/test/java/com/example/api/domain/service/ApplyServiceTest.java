@@ -10,7 +10,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.api.domain.respoistory.CouponRepository;
+import com.example.api.respoistory.CouponRepository;
+import com.example.api.service.ApplyService;
 
 @SpringBootTest
 class ApplyServiceTest {

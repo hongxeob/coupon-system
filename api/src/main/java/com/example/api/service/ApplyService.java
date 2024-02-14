@@ -1,10 +1,10 @@
-package com.example.api.domain.service;
+package com.example.api.service;
 
 import org.springframework.stereotype.Service;
 
 import com.example.api.domain.Coupon;
-import com.example.api.domain.respoistory.CouponCountRepository;
-import com.example.api.domain.respoistory.CouponRepository;
+import com.example.api.respoistory.CouponCountRepository;
+import com.example.api.respoistory.CouponRepository;
 
 @Service
 public class ApplyService {
