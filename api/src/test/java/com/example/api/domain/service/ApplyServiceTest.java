@@ -38,7 +38,7 @@ class ApplyServiceTest {
 	/**
 	 * Redis는 싱글 스레드 기반 이므로 각 스레드는 항상 최신화된 정보를 가지고 시작할 수 있다.
 	 * 하지만 많은 양이 한번에 들어오면 타임아웃 상황이 발생할 수 있다.
-	 * */
+	 */
 	@Test
 	void 여려명_응모() throws Exception {
 
@@ -59,6 +59,8 @@ class ApplyServiceTest {
 			});
 		}
 		latch.await();
+
+		Thread.sleep(10000);
 
 		long count = couponRepository.count();
 
